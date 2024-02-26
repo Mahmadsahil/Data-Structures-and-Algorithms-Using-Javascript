@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inster Element in Array</title>
+</head>
+<body>
+    <script>
+        let Data=[30,20,40,60,80,50,70];
+        for (let i = Data.length-1; i >= 0; i--) {
+           document.write(Data[i],` , `);
+           if(i>2){
+            Data[i+1]=Data[i];
+            if(i==2){
+                Data[i]=50;
+            }
+           }
+        }
+    </script>
+</body>
+</html>
