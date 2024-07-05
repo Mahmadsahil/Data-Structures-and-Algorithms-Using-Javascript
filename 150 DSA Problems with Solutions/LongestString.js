@@ -16,3 +16,9 @@ const words3 = ['car', 'road', 'building', 'city'];
 console.log(longestString(words1));
 console.log(longestString(words2));
 console.log(longestString(words3));
+
+Output:
+
+bcd
+pinapple
+building
