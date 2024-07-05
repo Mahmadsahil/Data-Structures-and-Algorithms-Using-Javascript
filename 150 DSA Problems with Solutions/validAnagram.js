@@ -5,7 +5,7 @@ const isAnagram = (s, t) => {
     }
     const sortedS = s.split('').sort().join();
     const sortedT = split('').sort().join();
-    sortedS === sortedT
+    return sortedS === sortedT
 }
 
 const s1 = 'anagram', t1 = 'nagaram';
