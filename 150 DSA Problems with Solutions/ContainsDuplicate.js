@@ -16,6 +16,6 @@ const num2 = [1, 2, 3, 4];
 const num3 = [1, 1, 1, 2, 2, 3, 3, 1];
 
 
-console.log(containsDuplicate(num1));
-console.log(containsDuplicate(num2));
-console.log(containsDuplicate(num3));
+console.log(containsDuplicate(num1));    // true
+console.log(containsDuplicate(num2));    // false
+console.log(containsDuplicate(num3));    // true
