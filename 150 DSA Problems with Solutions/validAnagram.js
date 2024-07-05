@@ -11,5 +11,5 @@ const isAnagram = (s, t) => {
 const s1 = 'anagram', t1 = 'nagaram';
 const s2 = 'rat', t2 = 'cat';
 
-console.log(isAnagram(s1, t1));
-console.log(isAnagram(s2, t2));
+console.log(isAnagram(s1, t1));    // true
+console.log(isAnagram(s2, t2));    // false
